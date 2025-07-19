@@ -228,13 +228,18 @@ input {
 }
 
 
+.output {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .text-output {
   display: flex;
   justify-content: center;
   margin-top: 20px;
   margin-bottom: 20px;
-  
-  
 }
 
 .result-output {
@@ -247,6 +252,7 @@ input {
   -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
   -moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
   box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+  width: 600px;
 }
 
 .verdict-output {
